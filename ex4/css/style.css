@@ -1,0 +1,92 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    direction: rtl;
+	
+	
+}
+
+header, main, footer, nav, section,aside, div,#logo{
+    display : block;
+}
+
+header,footer{
+    width: 100%;
+}
+
+p{
+    background-color: black;
+    padding: 30px;
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    font-size: 64px;
+}
+
+h4{
+    margin-top: 60px;
+    text-decoration: underline;
+
+    
+}
+
+header{
+
+    color: white;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+
+body{
+    background-color: black;
+    background-image: url(../images/broken-heart.svg);
+    color: white;
+    font-size: large;
+   
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: center;
+}
+form, .details {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: black;
+    /* padding: 2 0px; */
+    font-family: 'Miriam Libre', sans-serif;
+    padding: 20px;
+    margin: 20px;
+}
+
+label{
+    margin:10px;
+}
+
+
+
+#submit_btn{
+    margin-top: 50px;
+    color:white;
+   background-color: fuchsia;
+}
+
+
+
+
+
+
+
+
+
+/*****************************/
